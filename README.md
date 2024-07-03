@@ -3,7 +3,7 @@
 Um aplicativo simples para calcular o período de jejum entre duas refeições ao longo do dia.
 
 <div align="center">
-    <img src="assets/time.png" width="300" height="200"/>
+    <img src="assets/time.png" width="100" height="100"/>
 </div>
 
 Pequeno projeto em JavaScript para calcular o tempo de jejum entre duas refeições ao longo do dia. Esta calculadora foi desenvolvida para ajudar na prática de jejum intermitente, oferecendo uma maneira fácil de determinar o intervalo entre a última e a primeira refeição do dia.
