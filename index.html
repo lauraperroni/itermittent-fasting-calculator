@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fasting Calculator</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+    <div class="header-content">
+        <img src="assets/time.png" alt="Imagem de comida" class="image">
+        <h1 class="title">Fasting Calculator</h1>
+    </div>
+
+    <div class="calculator-card">
+        <div class="last-meal">
+            <label for="last-meal-time">Last meal</label>
+            <select id="last-meal-time">
+                <!-- Incluindo todas as horas do dia -->
+                <option value="0">00h</option>
+                <option value="1">01h</option>
+                <option value="2">02h</option>
+                <option value="3">03h</option>
+                <option value="4">04h</option>
+                <option value="5">05h</option>
+                <option value="6">06h</option>
+                <option value="7">07h</option>
+                <option value="8">08h</option>
+                <option value="9">09h</option>
+                <option value="10">10h</option>
+                <option value="11">11h</option>
+                <option value="12">12h</option>
+                <option value="13">13h</option>
+                <option value="14">14h</option>
+                <option value="15">15h</option>
+                <option value="16">16h</option>
+                <option value="17">17h</option>
+                <option value="18">18h</option>
+                <option value="19">19h</option>
+                <option value="20">20h</option>
+                <option value="21">21h</option>
+                <option value="22">22h</option>
+                <option value="23">23h</option>
+            </select>
+        </div>
+        <div class="first-meal">
+            <label for="first-meal-time">First meal</label>
+            <select id="first-meal-time">
+                <!-- Incluindo todas as horas do dia -->
+                <option value="0">00h</option>
+                <option value="1">01h</option>
+                <option value="2">02h</option>
+                <option value="3">03h</option>
+                <option value="4">04h</option>
+                <option value="5">05h</option>
+                <option value="6">06h</option>
+                <option value="7">07h</option>
+                <option value="8">08h</option>
+                <option value="9">09h</option>
+                <option value="10">10h</option>
+                <option value="11">11h</option>
+                <option value="12">12h</option>
+                <option value="13">13h</option>
+                <option value="14">14h</option>
+                <option value="15">15h</option>
+                <option value="16">16h</option>
+                <option value="17">17h</option>
+                <option value="18">18h</option>
+                <option value="19">19h</option>
+                <option value="20">20h</option>
+                <option value="21">21h</option>
+                <option value="22">22h</option>
+                <option value="23">23h</option>
+            </select>
+        </div>
+
+        <div class="button-container">
+            <button class="calculate-button" onclick="calculate()">Calculate</button>
+            <p class="result-text">Fasting Period: </p>
+        </div>
+
+    </div>
+    <script src="app/app.js"></script>
+</body>
+
+</html>
