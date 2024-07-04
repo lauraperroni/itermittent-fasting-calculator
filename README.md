@@ -22,7 +22,7 @@ Pequeno projeto em JavaScript para calcular o tempo de jejum entre duas refeiç�
 
 ## Como Utilizar
 
-Abra o sistema [aqui](https://lauraperroni.github.io/intermittent-fasting-calculator/).
+Abra o sistema [aqui](https://lauraperroni.github.io/itermittent-fasting-calculator/).
 Para calcular o tempo de jejum:
 
 1. Selecione a "Hora da última refeição" utilizando o menu suspenso.
